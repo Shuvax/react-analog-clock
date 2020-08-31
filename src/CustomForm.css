@@ -1,0 +1,24 @@
+.custom-title {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    font-family: inherit;
+}
+
+.all-hand-color-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-label-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.custom-submit-button {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom:10%;
+}
