@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-analog-clock/static/css/main.f17ce9c5.chunk.css",
+    "main.css": "/react-analog-clock/static/css/main.a8a73e24.chunk.css",
     "main.js": "/react-analog-clock/static/js/main.b97f5145.chunk.js",
     "main.js.map": "/react-analog-clock/static/js/main.b97f5145.chunk.js.map",
     "runtime-main.js": "/react-analog-clock/static/js/runtime-main.b2c1e21a.js",
@@ -8,15 +8,15 @@
     "static/js/2.0dc3e532.chunk.js": "/react-analog-clock/static/js/2.0dc3e532.chunk.js",
     "static/js/2.0dc3e532.chunk.js.map": "/react-analog-clock/static/js/2.0dc3e532.chunk.js.map",
     "index.html": "/react-analog-clock/index.html",
-    "precache-manifest.1525ac4b8efefcaf9ac56f331a2db54d.js": "/react-analog-clock/precache-manifest.1525ac4b8efefcaf9ac56f331a2db54d.js",
+    "precache-manifest.0c636f118fab5f33c241af5b82336bc4.js": "/react-analog-clock/precache-manifest.0c636f118fab5f33c241af5b82336bc4.js",
     "service-worker.js": "/react-analog-clock/service-worker.js",
-    "static/css/main.f17ce9c5.chunk.css.map": "/react-analog-clock/static/css/main.f17ce9c5.chunk.css.map",
+    "static/css/main.a8a73e24.chunk.css.map": "/react-analog-clock/static/css/main.a8a73e24.chunk.css.map",
     "static/js/2.0dc3e532.chunk.js.LICENSE.txt": "/react-analog-clock/static/js/2.0dc3e532.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b2c1e21a.js",
     "static/js/2.0dc3e532.chunk.js",
-    "static/css/main.f17ce9c5.chunk.css",
+    "static/css/main.a8a73e24.chunk.css",
     "static/js/main.b97f5145.chunk.js"
   ]
 }
