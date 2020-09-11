@@ -12,10 +12,13 @@ const App = () => {
     const [hours, setHours] = useState(0)
 
     const [options, setOptions] = useState({
-        handColors: {
+        clockColors: {
             second: 'green',
             minute: 'blue',
-            hour: 'red'
+            hour: 'red',
+            border: 'gray',
+            base: 'black',
+            center: 'gray'
         }
     })
 
@@ -37,8 +40,8 @@ const App = () => {
                 <CustomForm defaultOptions={options} updateClock={updateClock} />
             </h1> 
             <div className='clock-container'>
-                <ClockBase>
-                    <Center />
+                <ClockBase color={options}>
+                    <Center color={options}/>
                     <SecondHand fraction={seconds} color={options}/>
                     <MinuteHand fraction={minutes} color={options}/>
                     <HourHand fraction={hours} color={options}/>

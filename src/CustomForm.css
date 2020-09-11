@@ -1,8 +1,10 @@
 .custom-title {
     text-align: center;
     margin-bottom: 5%;
+    font-weight: 400;
     margin-top: 10%;
     font-family: inherit;
+    font-size: 1em;
 }
 
 .all-hand-color-container {
@@ -17,8 +19,84 @@
     flex-flow: column;
 }
 
-.custom-submit-button {
+.custom-submit-button-container {
     text-align: center;
-    margin-top: 10%;
-    margin-bottom:10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
+
+.custom-submit-button {
+    border: none;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: .4s ease-in;
+}
+
+.custom-submit-button:hover {
+    outline: none;
+    border: none;
+    background-color: gray;
+    color: white;
+}
+
+.custom-submit-button:active {
+    border:none;
+    outline: none;
+}
+.custom-submit-button:focus {
+    border:none;
+    outline: none;
+}
+
+.color-input {
+    font-size: .8em;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    background-color: inherit;
+}
+
+input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px #d3d3d3 inset;
+    -webkit-box-shadow: 0 0 0px 1000px #d3d3d3 inset;
+}
+
+
+/*---------------------@Media---------------------*/
+
+@media only screen and (max-width : 1400px) {
+    .custom-title {
+        font-size: .8em;
+    }
+    .color-input {
+        font-size: .6em;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    .custom-title {
+        font-size: .7em;
+        margin-bottom: 2em;
+    }
+    .color-input {
+        font-size: .5em;
+    }
+    .custom-submit-button {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .custom-title {
+        font-size: .6em;
+        margin-bottom: 1em;
+        
+    }
+    .color-input {
+        font-size: .4em;
+    }
+    .custom-submit-button {
+        font-size: .8rem;
+    }
+}
+

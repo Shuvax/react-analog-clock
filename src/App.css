@@ -12,3 +12,10 @@
     justify-self: start;
     width: 25%;
 }
+
+
+@media only screen and (max-width : 1400px) {
+    .main-container {
+        flex-direction: column-reverse;
+    }
+}
